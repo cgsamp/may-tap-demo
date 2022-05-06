@@ -12,6 +12,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
-  system: yelb
-  dependsOn: [Component:yelb-db]
+  owner: it
+  system: ford-pro
+  dependsOn: [Component:big-query-db]
