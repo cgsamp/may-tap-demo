@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Component:connected-vehicle-api
-  description: Conntected Vehicle API
+  name: connected-vehicle-api
+  description: Connected Vehicle API
   tags:
     - spring
   annotations:
