@@ -1,19 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: demo-corp
-  description: The demo-corp organization
+  name: ford-motor-company
+  description: Ford Motor Company
   links:
-    - url: http://www.backstage.io/
+    - url: http://www.ford.com/
       title: Website
     - url: https://meta.wikimedia.org/wiki/
       title: Intranet
 spec:
   type: organization
   profile:
-    displayName: Demo Corp
+    displayName: Ford Motor Company
     email: demo@example.com
-    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+    picture: https://corporate.ford.com/content/dam/corporate/us/en-us/icons/ford-logo.png
   children: [it]
 ---
 apiVersion: backstage.io/v1alpha1
