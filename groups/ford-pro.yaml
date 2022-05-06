@@ -7,7 +7,7 @@ spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team-a@example.com
+    email: pro@ford.com
     picture: https://content.fordpro.com/content/dam/fordpro/us/en-us/images/shared/ford-pro-logo.svg
   parent: development
   children: []
