@@ -7,7 +7,7 @@ tap_gui:
         awsS3:
           bucketName: ford-demo-20220506
           credentials:
-            accessKeyId: AKIATVCKPRD4JWM7NOVU
-            secretAccessKey: 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
+            accessKeyId: 
+            secretAccessKey: 
           region: us-east-1
           s3ForcePathStyle: false
