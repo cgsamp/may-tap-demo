@@ -14,16 +14,16 @@ spec:
     displayName: Ford Motor Company
     email: demo@example.com
     picture: https://corporate.ford.com/content/dam/corporate/us/en-us/icons/ford-logo.png
-  children: [it]
+  children: [it,development]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-group
-  description: A Backstage example group
+  name: ford-technology
+  description: Ford Technology
 spec:
   targets:
     - ./it-dept.yaml
     - ./dev-dept.yaml
-    - ./team-a-group.yaml
-    - ./team-b-group.yaml
+    - ./ford-pro.yaml
+    - ./foundational-services.yaml

@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: development
-  description: The Development sub-department
+  description: All Ford Developers
 spec:
   type: sub-department
   profile:
@@ -10,4 +10,4 @@ spec:
     email: backstage@example.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: it
-  children: [team-a, team-b]
+  children: [ford-pro foundational-services]

@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-b
-  description: Team B
+  name: connected-vehicles
+  description: Connected Vehicles
 spec:
   type: team
   profile:
     # Intentional no displayName for testing
     email: team-b@example.com
-    picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
+    picture: https://www.globalowneraem.ford.com/content/dam/global-owner/ford/us/en-us/images/BBT-Icons/Side-Icons---Active/xIcons/Miscellaneous/Rewards/48.svg
   parent: development
   children: []
 
@@ -22,4 +22,4 @@ spec:
     displayName: Kris Applegate
     email: kapplegate@vmware.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [team-b]
+  memberOf: [ford-pro]

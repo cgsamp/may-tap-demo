@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-a
-  description: Team A
+  name: ford-pro
+  description: Ford Pro
 spec:
   type: team
   profile:
     # Intentional no displayName for testing
     email: team-a@example.com
-    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+    picture: https://content.fordpro.com/content/dam/fordpro/us/en-us/images/shared/ford-pro-logo.svg
   parent: development
   children: []
 
@@ -22,4 +22,4 @@ spec:
     displayName: Guest User
     email: guest1@example.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [ford-pro]
