@@ -1,0 +1,84 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: cv-accelerator
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cgsamp/cv-accelerator
+    interval: 10s
+    ref:
+      branch: main
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: ecoboost-accelerator
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cgsamp/ecoboost-accelerator
+    interval: 10s
+    ref:
+      branch: main
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: f150l-accelerator
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cgsamp/f150l-accelerator
+    interval: 10s
+    ref:
+      branch: main
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: k8s-accelerator
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cgsamp/k8s-accelerator
+    interval: 10s
+    ref:
+      branch: main
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: mainframe-accelerator
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cgsamp/mainframe-accelerator
+    interval: 10s
+    ref:
+      branch: main
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: ml-accelerator
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cgsamp/ml-accelerator
+    interval: 10s
+    ref:
+      branch: main
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: pcf-accelerator
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cgsamp/pcf-accelerator
+    interval: 10s
+    ref:
+      branch: main
+---
