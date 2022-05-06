@@ -12,6 +12,5 @@ spec:
     - ./components/big-query-db/big-query-db.yaml
     - ./components/connected-vehicle-api/connected-vehicle-api.yaml
     - ./groups/org.yaml
-    - ./systems/yelb-system.yaml
-    - ./resources/yelb-db-resource.yaml
+    - ./systems/ford-pro-system.yaml
     - ./domains/cloudapps-domain.yaml
