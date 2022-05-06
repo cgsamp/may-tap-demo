@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ford-pro-ui
+  description: Ford Pro Web App
+  tags:
+    - spring
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=ford-pro-ui,tier=frontend'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://yelb-ui.example.com
+      title: 'Ford Pro UI'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ford-pro
+  system: ford-pro-system
+  dependsOn: [Component:connected-vehicle-api]

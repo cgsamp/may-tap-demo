@@ -7,6 +7,16 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
+    - ./components/ford-pro-ui/ford-pro-ui.yaml
+    - ./components/redis-server/redis-server.yaml
+    - ./components/big-query-db/big-query-db.yaml
+    - ./components/connected-vehicle-api/connected-vehicle-api.yaml
+    - ./groups/org.yaml
+    - ./systems/yelb-system.yaml
+    - ./resources/yelb-db-resource.yaml
+    - ./domains/cloudapps-domain.yaml
+
+
     - ./components/yelb-ui/yelb-ui.yaml
     - ./components/redis-server/redis-server.yaml
     - ./components/yelb-db/yelb-db.yaml
