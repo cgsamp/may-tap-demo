@@ -22,7 +22,7 @@ spec:
     displayName: Adib Saikali
     email: asaikali@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [ford-pro-group]
+  memberOf: [ford-pro-group,it,connected-vehicle]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -33,7 +33,7 @@ spec:
     displayName: Chris Samp
     email: csamp@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [ford-pro-group]
+  memberOf: [ford-pro-group,it,connected-vehicle]
   owner: ford-motor-company
 ---
 apiVersion: backstage.io/v1alpha1
