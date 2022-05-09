@@ -5,6 +5,7 @@ metadata:
   description: Connected Vehicle API
   tags:
     - spring
+      ford
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=connected-vehicle,tier=middletier'
     'backstage.io/techdocs-ref': dir:.
