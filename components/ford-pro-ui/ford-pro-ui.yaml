@@ -5,7 +5,7 @@ metadata:
   description: Ford Pro Web App
   tags:
     - spring
-      ford
+    - ford
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=ford-pro-ui,tier=frontend'
     'backstage.io/techdocs-ref': dir:.
