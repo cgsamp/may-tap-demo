@@ -16,6 +16,28 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: asaikali
+spec:
+  profile:
+    displayName: Adib Saikali
+    email: asaikali@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [ford-pro]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cgsamp
+spec:
+  profile:
+    displayName: Chris Samp
+    email: csamp@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [ford-pro]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: guest
 spec:
   profile:
