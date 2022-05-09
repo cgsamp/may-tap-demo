@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: ford-pro
+  name: ford-pro-group
   description: Ford Pro
 spec:
   type: team
@@ -22,7 +22,7 @@ spec:
     displayName: Adib Saikali
     email: asaikali@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [ford-pro]
+  memberOf: [ford-pro-group]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -33,7 +33,7 @@ spec:
     displayName: Chris Samp
     email: csamp@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [ford-pro]
+  memberOf: [ford-pro-group]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -44,4 +44,4 @@ spec:
     displayName: Guest User
     email: guest1@example.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [ford-pro]
+  memberOf: [ford-pro-group]

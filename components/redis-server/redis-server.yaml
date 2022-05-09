@@ -13,5 +13,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: it
-  system: ford-pro
+  system: ford-pro-system
   dependsOn: [Component:big-query-db]

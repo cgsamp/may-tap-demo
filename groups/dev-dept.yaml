@@ -10,4 +10,4 @@ spec:
     email: developers@ford.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: ford-motor-company
-  children: [ford-pro, foundational-services]
+  children: [ford-pro-group, foundational-services]

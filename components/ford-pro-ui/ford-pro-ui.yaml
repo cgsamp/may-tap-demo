@@ -15,6 +15,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: ford-pro
+  owner: ford-pro-group
   system: ford-pro-system
   dependsOn: [Component:connected-vehicle-api]

@@ -25,5 +25,5 @@ spec:
   targets:
     - ./it-dept.yaml
     - ./dev-dept.yaml
-    - ./ford-pro.yaml
+    - ./ford-pro-group.yaml
     - ./connected-vehicles.yaml
