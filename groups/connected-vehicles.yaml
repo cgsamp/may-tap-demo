@@ -5,8 +5,9 @@ metadata:
   description: Connected Vehicles
 spec:
   type: team
+  owner: ford-motor-company
   profile:
-    # Intentional no displayName for testing
+    displayName: Connected Vehicles
     email: team-b@example.com
     picture: https://www.globalowneraem.ford.com/content/dam/global-owner/ford/us/en-us/images/BBT-Icons/Side-Icons---Active/xIcons/Miscellaneous/Rewards/48.svg
   parent: development
@@ -22,4 +23,4 @@ spec:
     displayName: Kris Applegate
     email: kapplegate@vmware.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [ford-pro-group]
+  memberOf: [ford-pro-group,it]
