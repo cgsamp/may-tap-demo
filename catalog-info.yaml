@@ -13,4 +13,4 @@ spec:
     - ./components/connected-vehicle-api/connected-vehicle-api.yaml
     - ./groups/org.yaml
     - ./systems/ford-pro-system.yaml
-    - ./domains/cloudapps-domain.yaml
+    - ./domains/ford-pro-domain.yaml
