@@ -10,7 +10,7 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'app=ford-pro-ui,tier=frontend'
     'backstage.io/techdocs-ref': dir:.
   links:
-    - url: https://yelb-ui.example.com
+    - url: https://fordpro.com
       title: 'Ford Pro UI'
       icon: locallibrary
 spec:
