@@ -27,3 +27,4 @@ spec:
     - ./dev-dept.yaml
     - ./ford-pro-group.yaml
     - ./connected-vehicles.yaml
+  children: []
