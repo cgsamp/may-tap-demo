@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ford-blue-system
+  tags:
+  - ford
+  description: Ford Blue Software Systems
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: ford-blue-group
+  domain: ford-blue-domain
