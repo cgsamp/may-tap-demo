@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: ford-pro
+  description: All resources related to Ford Pro
+  picture: https://content.fordpro.com/content/dam/fordpro/us/en-us/images/shared/ford-pro-logo.svg
+  links:
+    - url: https://fordpro.com/
+      title: Ford Pro
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: ford-pro

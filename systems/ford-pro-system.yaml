@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: ford-pro-system
-  description: Ford Pro
+  description: Ford Pro Software Systems
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
   owner: ford-pro
-  domain: cloud-apps
+  domain: ford-pro
