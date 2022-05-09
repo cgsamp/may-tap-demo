@@ -14,4 +14,3 @@ spec:
     - ./groups/org.yaml
     - ./systems/ford-pro-system.yaml
     - ./domains/ford-pro-domain.yaml
-  children: []
