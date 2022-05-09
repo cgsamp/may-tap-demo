@@ -6,6 +6,8 @@ metadata:
     - ford
   description: All resources related to Ford Pro
   picture: https://content.fordpro.com/content/dam/fordpro/us/en-us/images/shared/ford-pro-logo.svg
+  type: domain
+  lifecycle: experimental
   links:
     - url: https://fordpro.com/
       title: Ford Pro
