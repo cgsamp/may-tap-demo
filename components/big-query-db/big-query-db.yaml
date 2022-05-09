@@ -5,7 +5,7 @@ metadata:
   description: BigQuery DB
   tags:
     - sql
-      ford
+    - ford
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=big-query-db,tier=backenddb'
     'backstage.io/techdocs-ref': dir:.
