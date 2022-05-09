@@ -7,3 +7,4 @@ spec:
   type: department
   # Intentional no profile for testing
   parent: ford-motor-company
+  children: []
